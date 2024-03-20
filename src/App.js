@@ -61,7 +61,7 @@ showAlert("Dark mode has been enabled","success");
            
          </Route>
          
-          <Route exact path="/"element={<TextForm showAlert={showAlert} heading="enter the text to analyze below" mode={mode}/>}>
+          <Route exact path="/"element={<TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>}>
     
         </Route>
        
@@ -71,5 +71,6 @@ showAlert("Dark mode has been enabled","success");
   </>
  );
 }
+
 
 export default App;
